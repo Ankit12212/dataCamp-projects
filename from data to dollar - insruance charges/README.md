@@ -16,7 +16,7 @@ This project analyzes insurance charges using machine learning techniques. It in
 ## Requirements
 
 - Python 3.x
-- pandas, numpy, scikit-learn, matplotlib, seaborn (install via pip if needed)
+- pandas, numpy, scikit-learn (install via pip if needed)
 
 ## Usage
 
@@ -24,4 +24,3 @@ Run the notebook to:
 
 - Load and explore the insurance dataset
 - Build and evaluate predictive models
-- Validate results using the validation dataset
