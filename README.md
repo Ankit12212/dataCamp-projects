@@ -1,18 +1,33 @@
 # DataCamp Projects
 
-This folder contains DataCamp machine learning projects, including insurance charge analysis and other datasets.
+This repository contains multiple machine learning and data science projects completed for DataCamp. Each project folder includes its own dataset, Jupyter notebook, and README with specific instructions.
 
-## Structure
+## Projects Included
 
-Projects in this repository:
+- **From Data to Dollar - Insurance Charges**
 
-- `from data to dollar - insruance charges/`: Insurance Charges Analysis (data exploration and ML)
-- `credit card approval/`: Credit Card Approval Prediction (data cleaning and ML)
+  - Analyze insurance charges using regression models
+  - Data cleaning, feature engineering, and model validation
+  - Files: `insurance.csv`, `validation_dataset.csv`, `notebook.ipynb`, `README.md`
 
-## Getting Started
+- **Credit Card Approval**
 
-Explore each project folder for its own README and instructions.
+  - Predict credit card approvals using logistic regression and grid search
+  - Data preprocessing, model training, and evaluation
+  - Files: `cc_approvals.data`, `notebook.ipynb`, `README.md`
 
-## License
+- **Review Categorization**
+  - Categorize text reviews using NLP and clustering (TF-IDF, KMeans)
+  - Text preprocessing, feature extraction, and unsupervised learning
+  - Files: `reviews.csv`, `notebook.ipynb`, `README.md`
 
-This repository is for educational purposes.
+## How to Use
+
+1. Explore each project folder for its own README and Jupyter notebook.
+2. Open the notebook in Jupyter or VS Code and follow the step-by-step analysis.
+3. Install required Python packages as listed in each project's README.
+
+## Requirements
+
+- Python 3.x
+- See each project's README for specific package requirements (commonly pandas, numpy, scikit-learn, nltk)
